@@ -2,7 +2,16 @@
 -**Introduction**
 This project aims to analyze a collection of tweets stored in an S3 bucket on AWS and extract the top 20 hashtags present in the dataset. By leveraging the scalability and processing power of Amazon EMR (Elastic MapReduce), we can efficiently process large volumes of data to gain valuable insights into the prevalent topics and discussions on Twitter.
 
--**Data Processing Tool:** Pyspark
+-**Data Processing Tool**
+Apache Spark is a multi-language engine for executing data engineering, data science, and
+machine learning on single-node machines or clusters. PySpark is the Python API for Apache Spark.
+Apache Spark is an open source tool for processing big data workloads.
+
+-**Advantages of Apache Spark:**
+1. Fast: It uses in-memory caching and has an optimized query execution for data of any size.
+2. Easy to use: Apache Spark is developer friendly and with support for multiple programming
+languages, developers can make use of this powerful data processing tool.
+3. Handles multiple workloads.
 
 -**Data Processing Steps:** 
 1.	Read JSON file as a dataframe in PySpark.
